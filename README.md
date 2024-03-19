@@ -3,9 +3,9 @@
 Calculadora científica feita para a matéria de Cálculo IV
 <br>
 Alunos: Jonathan Neves Alencar
-<br>
+<br>&emsp&emsp
         Rômulo Fonseca
-<br>
+<br>&emsp&emsp
         Rodrigo Teixeira
 
 ## Formulas.py
