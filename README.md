@@ -1,14 +1,19 @@
 # CalcIVTrab
 
 Calculadora científica feita para a matéria de Cálculo IV
-Aluno:  Jonathan Neves Alencar
+<br>
+Alunos: Jonathan Neves Alencar
+<br>
         Rômulo Fonseca
+<br>
         Rodrigo Teixeira
 
 ## Formulas.py
 
 O arquivo `formulas.py` contém a implementação de várias fórmulas matemáticas utilizadas na calculadora científica. Ele fornece funções para realizar cálculos relacionados ao que foi pedido.
+<br>
 Possui sen(x), cos(x), tan(x), ln(x), e^x e √x, todos sendo calculados a partir da expansão séries de Taylor.
+<br>
 O arquivo também possui o cálculo da constante pi (π), sendo calculado a partir da espansão da série de Leibniz.
 
 ### Uso
