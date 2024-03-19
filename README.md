@@ -2,11 +2,13 @@
 
 Calculadora científica feita para a matéria de Cálculo IV
 <br>
-Alunos: Jonathan Neves Alencar
-<br>&emsp&emsp
-        Rômulo Fonseca
-<br>&emsp&emsp
-        Rodrigo Teixeira
+Alunos:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Jonathan Neves Alencar
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Rômulo Fonseca
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Rodrigo Teixeira
 
 ## Formulas.py
 
