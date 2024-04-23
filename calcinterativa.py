@@ -5,9 +5,12 @@ print("Alunos: Jonathan Neves\nRômulo Fonseca\nRodrigo Teixeira")
 print("Versão 1.0")
 print("")
 print("Vamos começar!")
-print("Digite um número: ")
-num = float(input())
-print("Escolha uma operação")
+print("Digite um número (ou a palavra 'pi' para o valor de pi): ")
+num = input()
+if num.lower() == 'pi':
+    num = formulas.pi()
+else:
+    num = float(num)
 formulas.menu()
 opcao = int(input("Digite a opção desejada: "))
 while opcao != 13:
