@@ -13,7 +13,7 @@ else:
     num = float(num)
 formulas.menu()
 opcao = int(input("Digite a opção desejada: "))
-while opcao != 13:
+while True:
     match opcao:
         case 1:
             print("Digite o segundo número ou 'pi' para usar o valor de Pi: ")
@@ -106,8 +106,28 @@ while opcao != 13:
             formulas.menu()
             opcao = int(input("Digite a opção desejada: "))
         case 13:
+            num = formulas.log_base10(num)
+            print("Resultado: ", num)
+            formulas.menu()
+            opcao = int(input("Digite a opção desejada: "))
+        case 14:
+            num = 0
+            print("Calculadora resetada")
+            print("Resultado: ", num)
+            print("Digite um número (ou a palavra 'pi' para o valor de pi): ")
+            num = input()
+            if num.lower() == 'pi':
+                num = formulas.pi()
+            else:
+                num = float(num)
+            formulas.menu()
+            opcao = int(input("Digite a opção desejada: "))
+        case 15:
             print("Até mais!")
+            break
         case _:
             print("Opção inválida")
+            print("O seu resultado manteve o valor anterior")
+            print("Resultado: ", num)
             formulas.menu()
             opcao = int(input("Digite a opção desejada: "))

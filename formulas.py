@@ -29,6 +29,9 @@ def ln_using_mercator(y):
     
     return 2 * ln_y
 
+def log_base10(x):
+    return ln_using_mercator(x) / ln_using_mercator(10)
+
 def sqrt_newton(x, tolerance=1e-10):
     n = 100
     y = x
@@ -78,8 +81,10 @@ def menu():
     print("6 - Seno")
     print("7 - Cosseno")
     print("8 - Tangente")
-    print("9 - Exponencial (e^x)")
-    print("10 - Logaritmo Natural")
+    print("9 - Exponencial (e^x) (unário)")
+    print("10 - Logaritmo Neperiano (ln)")
     print("11 - Raiz Quadrada")
     print("12 - Fatorial")
-    print("13 - Sair")
+    print("13 - Logaritmo Natural (base 10)")
+    print("14 - Resetar Calculadora")
+    print("15 - Sair")
